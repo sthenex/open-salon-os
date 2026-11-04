@@ -1,0 +1,15 @@
+{
+  "name": "open-salon-os",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Privacy-first, self-hostable salon and wellness operations platform",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-docs.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+

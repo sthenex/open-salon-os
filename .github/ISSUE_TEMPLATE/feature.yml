@@ -1,0 +1,35 @@
+name: Feature request
+description: Propose a user problem and an independently designed solution.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: user
+    attributes:
+      label: User and problem
+      description: Who has the problem, in what context, and what is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe success without copying another product's interface.
+    validations:
+      required: true
+  - type: textarea
+    id: flow
+    attributes:
+      label: Suggested flow and edge cases
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Permission, privacy, offline, or migration considerations
+  - type: checkboxes
+    id: cleanroom
+    attributes:
+      label: Clean-room confirmation
+      options:
+        - label: This proposal does not include proprietary code, private documentation, credentials, or customer data.
+          required: true
+
